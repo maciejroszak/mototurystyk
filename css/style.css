@@ -1,0 +1,145 @@
+.baner {
+    background-image: url(/images/motorcycle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    opacity: 1;
+}
+
+/*  --- STOPKA ---*/
+.main-footer {
+    height: 80px;
+    margin-top: 0px;
+}
+
+.main-footer li {
+    display: inline;
+}
+
+.main-footer img {
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+    align-content: right;
+    cursor: pointer;
+    float: right;
+}
+/*  --- STOPKA ---*/
+
+/*  --- KONTAKT ---*/
+.contact-formular {
+    background-image: url(/images/motorcycle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    opacity: 1;
+}
+
+.contact-formular h1 {
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+.contact-guide {
+    background-image: url(/images/motorcycle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    opacity: 1;
+}
+
+.contact-guide h1 {
+    margin-top: 60px;
+    margin-left: 20%;
+}
+
+.fieldset-contact {
+    opacity: 0.9;
+    margin-left: 30%;
+    width: 400px;
+	background: rgb(219, 190, 23);
+	color: rgb(44, 51, 50);
+	border-radius: 25px;
+	/* margin-border: 25px; */
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.form-email {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.form-message {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.contact-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.form-check {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+}
+/*  --- KONTAKT ---*/
+
+/*  --- PORADNIK ---*/
+.fieldset-guide {
+    opacity: 0.9;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    width: 80%;
+	background: rgb(88, 88, 86);
+	color: rgb(44, 51, 50);
+	border-radius: 25px;
+	/* margin-border: 25px; */
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.fieldset-guide legend {
+    margin-left: 10%;
+    margin-bottom: -10px;
+    color: white;
+}
+
+.fieldset-guide p {
+    padding: 30px;
+    color: white;
+    display: none;
+}
+
+.fieldset-guide button {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+#guide-more {
+    float: right;
+    padding: 0.5em;
+    margin-bottom: 20px;
+}
+
