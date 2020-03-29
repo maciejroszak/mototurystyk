@@ -1,16 +1,17 @@
-.baner {
+body {
     background-image: url(/images/motorcycle.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
     opacity: 1;
+    padding-bottom: 60px;
 }
 
 /*  --- STOPKA ---*/
 .main-footer {
-    height: 80px;
-    margin-top: 0px;
+    height: 60px;
+    margin-top: -17px;
 }
 
 .main-footer li {
@@ -18,13 +19,17 @@
 }
 
 .main-footer img {
-    width: 50px;
+    width: 30px;
     margin-top: 15px;
-    margin-left: 15px;
     margin-right: 20px;
+    margin-bottom: 15px;
     align-content: right;
     cursor: pointer;
     float: right;
+}
+.main-footer h4 {
+    float: left;
+    padding: 10px;
 }
 /*  --- STOPKA ---*/
 
@@ -47,8 +52,9 @@
     background-image: url(/images/motorcycle.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: cover;
+    height: 85vh;
     opacity: 1;
 }
 
@@ -101,45 +107,39 @@
 }
 /*  --- KONTAKT ---*/
 
-/*  --- PORADNIK ---*/
-.fieldset-guide {
-    opacity: 0.9;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    width: 80%;
-	background: rgb(88, 88, 86);
-	color: rgb(44, 51, 50);
-	border-radius: 25px;
-	/* margin-border: 25px; */
-	border-top-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	border-right-style: none;
+/*-- PODRÓŻE --*/
+.travel-section {
+    margin-left: 5%;
+    margin-top: 25px;
 }
 
-.fieldset-guide legend {
-    margin-left: 10%;
-    margin-bottom: -10px;
-    color: white;
+.travel-container {
+    background-color: rgb(194, 204, 204);
+    height: 450px;
+    width: 500px;
+    border-radius: 20px;
 }
 
-.fieldset-guide p {
-    padding: 30px;
-    color: white;
+.travel-container h2 {
+    text-align: center;
+}
+
+.travel-container img {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+.travel-container span {
+    margin-left: 30px;
+}
+
+.travel-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.travel-container p {
     display: none;
 }
-
-.fieldset-guide button {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    width: 100px;
-}
-
-#guide-more {
-    float: right;
-    padding: 0.5em;
-    margin-bottom: 20px;
-}
-

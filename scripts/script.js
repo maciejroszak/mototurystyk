@@ -1,7 +1,5 @@
 function contactCheckbox() {
-    let btn = document.getElementsByClassName("submit");
-    var onClick = 
-    if (zmienna == false) {
+    if (document.getElementById('exampleCheck').checked == false) {
             alert("Wymagane zaznaczenie.");
         }
 }
