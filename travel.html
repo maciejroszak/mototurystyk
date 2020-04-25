@@ -13,20 +13,7 @@
     <title>MOTOTurystyk</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="scripts/script.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-          // przypisz zachowanie myszki do osobnych elementów, które wywołają efekt na innym elemencie. 
-          // drugi element button wybierz za pomocą :filtra, a nie id.
-          
-          $('#ukryj').click(function(){    // Ukrywanie tekstu w ciągu 1 sekundy po kliknięciu przycisku
-              $('p').hide(1000);
-          });
-          $('#pokaz').click(function(){    // Pokazanie tekstu w ciągu 1 sekundy po kliknięciu przycisku
-              $('p').show(1000);
-              $('.travel-container').css('width', '80%');  
-          });
-      });
-  </script>
+
   </head>
   <body>
     <!--  MENU -->
@@ -53,39 +40,113 @@
     <!--  PODRÓŻE -->
     
       <div class="col-xl-12 col-lg-10 col-md-9 text-center">
-        <h1 class="text-capitalize mt-5"><span class="display-2 text-warning font-weight-bold">Ciekawe</span> 
-          <span class="display-2 text-capitalize text-white ">miejsca</span></h1>       
-            <section class="travel-section">
-              <div class="travel-item">
-                  <div class="travel-container">
-                    <h2>Chorwacja</h2>
-                    <img src="images/Chorwacja_motocyklem.jpg" alt="Chorwacja">
-                    <span>Czas podrózy: 14 dni</span>
-                    <p id="more">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quas doloribus, at quaerat debitis natus quos id tenetur. Totam, illo! Tempora repellendus, quia incidunt quidem ad cumque laborum fuga nulla.</p>
-                    <button class="btn btn-primary" id="pokaz">Więcej</button>
+        <h1 class="text-capitalize mt-5 p-3"><span class="display-2 text-warning font-weight-bold">Ciekawe</span> 
+          <span class="display-2 text-capitalize text-white ">miejsca</span></h1>  
+          <!-- TRAVEL --> 
+          <div class="containet-fluid">
+            <div class="row">
+              <div class="col-xl-12 col-lg-10 col-md-9 ml-auto">
+                <div class="row ml-4 mb-5">
+                  <div class="col-xl-5">
+                    <div class="card mb-5">
+                      <div class="travel-container">
+                        <button class="btn btn-block btn-secondary text-light mb-2" data-toggle="collapse" data-target="#collapseOne">
+                          <h4 class="text-center">Chorwacja</h4>
+                          <img src="images/Chorwacja_motocyklem.jpg" alt="Chorwacja">
+                          <span>Czas podróży: 14 dni</span>
+                        </button>
+                      </div>
+                      <div class="collapse hide" id="collapseOne">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  
-                  <div class="travel-container">
-                    <h2>Gruzja i Armenia</h2>
-                    <img src="images/Gruzja-Armenia.jpg" alt="Gruzja-Armenia">
-                    <span>Czas podrózy: 18 dni</span>
-                    <button class="btn btn-primary" onclick="ShowMore();">Więcej</button>
+                  <div class="col-xl-5">
+                    <div class="card mb-2">
+                      <div class="travel-container">
+                        <button class="btn btn-block btn-secondary text-light mb-2" data-toggle="collapse" data-target="#collapse2">
+                          <h4 class="text-center">Gruzja</h4>
+                          <img src="images/Gruzja-Armenia.jpg" alt="Chorwacja">
+                          <span>Czas podróży: 14 dni</span>
+                        </button>
+                      </div>
+                      <div class="collapse hide" id="collapse2">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                  <div class="col-xl-5">
+                    <div class="card mb-2">
+                      <div class="travel-container">
+                        <button class="btn btn-block btn-secondary text-light mb-2" data-toggle="collapse" data-target="#collapseThree">
+                          <h4 class="text-center">Gruzja 2</h4>
+                          <img src="images/Gruzja-Armenia.jpg" alt="Chorwacja">
+                          <span>Czas podróży: 14 dni</span>
+                        </button>
+                      </div>
+                      <div class="collapse hide" id="collapseThree">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-5">
+                    <div class="card mb-2">
+                      <div class="travel-container">
+                        <button class="btn btn-block btn-secondary text-light mb-2" data-toggle="collapse" data-target="#collapse4">
+                          <h4 class="text-center">Gruzja 3</h4>
+                          <img src="images/Gruzja-Armenia.jpg" alt="Chorwacja">
+                          <span>Czas podróży: 14 dni</span>
+                        </button>
+                      </div>
+                      <div class="collapse hide" id="collapse4">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur incidunt, laboriosam iusto
+                          dignissimos illo, sit ad rem natus alias magnam ab minus vitae esse.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-          </section>
+            </div>
+          </div>
         </div>        <!-- -->
 
     <!--  FOOTER  -->
-    <footer class="main-footer bg-dark fixed-bottom mt-5">
-      <h4 class="text-capitalize"><span class="text-warning font-weight-bold">MOTO</span> 
-        <span class="text-capitalize text-white text-left">Turystyk</span></h4>
-        <ul>
-          <li></li><a href="http://youtube.com" target="_blank"><img src="images/Youtube Logo.png" alt="YouTube Logo"></a></li>
-          <li><a href="http://spotify.com" target="_blank"><img src="images/Spotify Logo.png" alt="Spotify Logo"></a></li>
-          <li><a href="facebook.com" target="_blank"><img src="images/Facebook Logo.png" alt="Facebook Logo"></a></li>
-      </ul>
+    <footer class="main-footer bg-dark fixed-bottom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12 col-lg-10 col-md-8">
+            <h4 class="text-capitalize text-left"><span class="text-warning font-weight-bold">MOTO</span>
+              <span class="text-capitalize text-white text-left">Turystyk</span> 
+            </h4>
+            <p class="text-muted">&copy; 2020 Copyright. Strona stworzona przez Macieja Roszaka.</p>
+            <ul class="">
+              <li><a href="http://youtube.com" target="_blank"><img src="images/Youtube Logo.png" alt="YouTube Logo"></a></li>
+              <li><a href="http://spotify.com" target="_blank"><img src="images/Spotify Logo.png" alt="Spotify Logo"></a></li>
+              <li><a href="facebook.com" target="_blank"><img src="images/Facebook Logo.png" alt="Facebook Logo"></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      </footer> 
+    </footer>
     
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
