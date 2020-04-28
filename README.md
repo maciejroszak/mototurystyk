@@ -10,4 +10,6 @@ Aplikacja uruchamiana w przegladarkach Google Chrome oraz Brave.
 ### Opis projektu
 ⋅⋅* Strona główna - index.html
 
+PLIK README.MD NIE JEST UKOŃCZONY
+
  
