@@ -22,5 +22,4 @@ Aplikacja uruchamiana w przegladarkach Google Chrome oraz Brave.
  
 ⋅⋅* Podstrona Kontakt - contact.html
  Zawiera u góry ekranu pasek menu z odnośnikami do poszczególnych podstron. Baner ze strony głównej jest tłem. Podstrona zawiera krótki formularz kontaktowy, w którym trzeba podać adres email, imię i treść wiadomości. Aby wiadomość została wysłana konieczne jest zaznaczenie pola checkbox z opisem pole wymagane. W przeciwnym razie przeglądarka wyrzuci komunikat o konieczniści zaznaczenia. 
-
- 
+https://maciejroszak.github.io/mototurystyk/ 
