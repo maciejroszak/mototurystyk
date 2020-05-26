@@ -118,12 +118,12 @@ body {
 }
 
 .travel-container {
-    height: 350px;
-    width: 556x;
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
 }
 .travel-container img {
-    width: 540px;
+    width: 97%;
     height: 300px;
     padding: 10px;
 }
